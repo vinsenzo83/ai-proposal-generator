@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build --workspace=client",
+  "outputDirectory": "client/dist",
+  "installCommand": "npm install",
+  "rewrites": [
+    { "source": "/api/proposal/generate", "destination": "/api/proposal" },
+    { "source": "/api/youtube/:path*", "destination": "/api/youtube" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
