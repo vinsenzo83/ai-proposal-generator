@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build --workspace=client",
-  "outputDirectory": "client/dist",
+  "outputDirectory": "dist",
   "installCommand": "npm install",
   "rewrites": [
     { "source": "/api/proposal/generate", "destination": "/api/proposal" },
